@@ -51,4 +51,4 @@ end
 
 res = gaussseidel(a, b, zeros(1000, 1), 0.1, 100000);
 
-surf(reshape(res, 20, 50));
+evolution(res, 5, 0.1);
